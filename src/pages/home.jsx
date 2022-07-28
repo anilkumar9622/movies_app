@@ -11,7 +11,7 @@ export default function Home() {
     // const [data2, setData2] = useState([])
     const [mediaType, setmediaType] = useState([])
     // const [search, setSearch] = useState("");
-
+console.log(data1)
     const Changehandler = (checkedValues) => {
         setmediaType(checkedValues ? 'movie' : 'tv')
         
@@ -112,6 +112,7 @@ export default function Home() {
                                                 cover={<img alt="example" src={base_url.concat(v.poster_path)} style={{ borderRadius: ".6rem", width: '' }} />}
                                             >
                                                 <Meta title={v.title} description={v.release_date} />
+                                                <Meta title={v.name} description={v.first_air_date} />
                                                 <Rate allowHalf defaultValue={v.vote_count / 7} />
                                             </Card>
                                         </div>
