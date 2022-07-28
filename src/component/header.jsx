@@ -27,7 +27,7 @@ export default function Header() {
 
                         <li> <Link to='' style={{ textDecoration: 'none', color: "white" }}>Log In</Link></li>
                         <li><Link to='' style={{ textDecoration: 'none', color: "white" }}>Join Us</Link></li>
-                        <Link to=''>  <SearchOutlined style={{ fontSize: '1.2rem', color: 'white' }} /></Link>
+                        <Link to=''>  <SearchOutlined style={{ fontSize: '.6rem', color: 'white' }} /></Link>
 
                     </ul>
                 </div>
