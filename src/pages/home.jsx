@@ -72,7 +72,8 @@ const onChange = (e) =>{
     return (
         <>
             <div style={{ position: 'relative' }}>
-                <Header />
+                <Header  />
+    
                 {/* </div> */}
                 <div style={{ position: '' }}>
                     <div style={{}} >
@@ -112,7 +113,7 @@ const onChange = (e) =>{
 
 
                     <div id="main-slider-container" >
-                        <button className='' style={{ opacity: '.5', minHeight: '2.6rem', minWidth: '2.8rem', borderRadius:'50%', margin:'0rem 0rem 5rem 3rem' }}
+                        <button className='' style={{ opacity: '.5', minHeight: '2.6rem', minWidth: '2.8rem', borderRadius:'50%', margin:'0rem 0rem 5rem 3.2rem' }}
                             onClick={slideLeft} >
                             <CaretLeftOutlined />
                         </button>
@@ -143,7 +144,7 @@ const onChange = (e) =>{
                                     </>)
                             })}
                         </div>
-                        <button className='' style={{ opacity: '0.5', minHeight: '2.6rem', minWidth: '2.8rem', borderRadius:'50%',margin:'0rem 2rem 5rem 0rem' }}
+                        <button className='' style={{ opacity: '0.5', minHeight: '2.6rem', minWidth: '2.8rem', borderRadius:'50%',margin:'0rem 2.5rem 5rem 0rem' }}
                             onClick={slideRight}>
                             <CaretRightOutlined />
                         </button>

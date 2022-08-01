@@ -19,7 +19,7 @@ export default function Carousel1() {
     
      <Carousel >
     <div >
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdaJoP_FYS3flfrEua5GeZ8CE7O3aROOFK0Q&usqp=CAU" style={contentStyle} alt=''/> 
+      <img src="https://wallpaperaccess.com/full/1076854.jpg" style={contentStyle} alt=''/> 
     </div>
     <div>
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuvSLr_Jefz-EXn8pxajLyfgS0nLLD845nGg&usqp=CAU" style={contentStyle} alt='ddd'/>

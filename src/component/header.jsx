@@ -3,7 +3,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import img from '../1.png'
 
-export default function Header() {
+export default function Header(pr) {
+    const name = pr.name
     return (
         <>
             <div style={{
@@ -15,10 +16,10 @@ export default function Header() {
 
                     <ul style={{ marginRight: '3rem', display: 'flex', listStyleType: 'none', justifyContent: 'flex-start', alignItems: 'center', textDecoration: 'none', gap: '2.5rem', color: 'white' }}>
                         <Link to=''> <img src={img} style={{ width: "7rem" }} alt='hari' /></Link>
-                        <li> <Link to='' style={{ textDecoration: 'none', color: "white" }}>Movies</Link></li>
+                        <li> <Link to='' style={{ textDecoration: 'none', color: "white" }}>Movies </Link></li>
                         <li><Link to='' style={{ textDecoration: 'none', color: "white" }}>TV Show</Link></li>
                         <li><Link to='' style={{ textDecoration: 'none', color: "white" }}>People</Link></li>
-                        <li ><Link to='' style={{ textDecoration: 'none', color: "white" }}>More</Link></li>
+                        <li ><Link to='/slides' style={{ textDecoration: 'none', color: "white" }}>More</Link></li>
                     </ul>
 
                 </div>

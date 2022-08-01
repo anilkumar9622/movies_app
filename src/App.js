@@ -1,13 +1,18 @@
 import React from 'react';
 import './App.css';
 import { useRoutes } from 'react-router-dom'
-import Home from './pages/home';
+import House from './pages/home';
+import Slides from './pages/slides';
 
 function App() {
   const routes = useRoutes([
     {
-      path:'/', element: <Home /> 
-    }
+      path:'/', element: <House /> 
+    },
+    {
+      path:'/slides', element: <Slides /> 
+    },
+   
    
   ])
   return (
