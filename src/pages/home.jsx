@@ -126,8 +126,8 @@ const onChange = (e) =>{
                                 else if (mediaType.includes(item.media_type)) {
                                     return item;
                                 }
-                            }).map(v => {
-
+                            }).map((v,i) => {
+                            //  if(i<3)
                                 return (
                                     <>
                                         <div  className="slider-card">
